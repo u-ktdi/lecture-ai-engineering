@@ -50,5 +50,5 @@ jobs:
 
     - name: Run all tests with coverage
       run: |
-        pytest $PROJECT_DIR/tests --cov=$PROJECT_DIR --cov-report=term-missing
+        pytest day5/演習3/tests --cov=day5/演習3/ --cov-report=term-missing
 
